@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: 'Work Sans', sans-serif;  
+}
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    background-color: 
+    #ff8f0e31;
+
+    
+}
+
+
+nav li{
+    display: inline-block;
+margin-right: 15px;
+ 
+}
+nav li:last-child{
+    margin-right: 20px;
+    margin-right: 80px;
+}
+
+.nav-link{
+cursor: pointer;
+}
+.logo{
+
+    font-size: 45px;
+    font-weight: 700;
+margin-left: 50px;
+    text-align: center;
+    
+}
+
+
+
+.banner-pic img{
+    width: 840px;
+    height: 500px;
+    
+}
+.banner-pic{
+    margin: 0 auto;
+}
+.banner-head{
+    background-color: 
+    #ff8f0e31;
+}
+.con{
+  
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 20px;  
+}
+.banner-info, .banner-pic{
+    margin: auto;
+
+}
+.banner-info{
+    width: 700px;
+    text-align: center;
+}
+.btn{
+    background-color: #FF900E;
+    height: 64px;
+width: 180px;
+border-radius: 8px;
+border: none;
+font-weight: 700;
+color: white;
+}
+.slow-gun{
+font-size: 64px;
+font-weight: 700;
+text-align: center;
+
+}
+.type{
+    height: 52px;
+    width: 868px;
+
+
+}
+
+
+.images, .images-b{
+display: inline-block;
+    
+}
+.images img, .images-b img{
+    width: 300px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.text{
+
+
+    font-size: 45px;
+    width: 537px;
+}
+.small{
+    width: 537px;
+margin-right: 20px;
+padding-top: 20px;
+}
+.d-b{
+font-weight: 1000;
+}
+.or{
+    color: #FF900E;
+}
+.quic{
+    font-weight: 400;
+    color: rgb(163, 162, 162);
+}
+.all-images-wrapper{
+    display: inline-block;
+    float: right;
+    margin-top: 200px;
+}
+.la{
+margin-top: 50px;
+
+
+}
+.all-w{
+    width: 550px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.alll-wrwpper{
+    display: flex;
+}
+.imgas-bo {
+    background-image: url("../images/architect.png");
+margin: 0;
+padding: 0;
+width: 600px;    
+margin-left: 110px;
+height: 708px;
+position: relative;
+}
+.container{
+    margin-top: 110px;
+}
+.main-h{
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.main-t-h{
+    padding-bottom: 25px;
+}
+
+
+.main-b{
+padding-bottom: 20px;
+font-size: 30px;
+margin-top: 20px;
+width:500px
+}
+.main-p{
+font-size: 15px;
+color: rgb(107, 106, 106);
+width:500px
+}
+
+.mac{
+margin-top: 650px;
+margin-left: -50px;
+width: 242px;
+height: 100px;
+border-radius: 5px;
+font-size: 25px;
+font-weight: 700;
+}
+.header-mac{
+    width: 600px;
+    
+}
+.awords{
+   text-align: center;
+}
+.actions-mac{
+ 
+    margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+      
+.l{
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+.awords{
+    border: 1px solid #FF900E;
+    padding: 35px 28px;
+    margin-left: 15px;
+    
+}
+.b{
+    font-weight: 700;
+    font-size: 38px;
+}
+.h-t-o{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ 
+}
+.big-h{
+    font-size: 45px;
+    font-weight: 700;
+}
+.dark-3{
+    color: rgb(110, 108, 108);
+}
+.sopncer img{
+    width: 100px;
+    margin-left: 80px;
+    filter: grayscale(100%);
+    transition: 0.8s;
+}
+.sopncer img:hover{
+    filter: grayscale(00%);
+    transform: translateY(-30%);
+}
+
+.sopncer{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+.sopncer .mb{
+height: 40px;
+width: 110px;
+}
+footer{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 130px;
+    background-color: #FFF4E7;
+    height: 50px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
